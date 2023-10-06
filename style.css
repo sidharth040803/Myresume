@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    border-radius: 68px;
+    background: #1a1919;
+    box-shadow: inset 20px 20px 54px #0d0c0c,
+                inset -20px -20px 54px #272626;
+}
+.border{
+    border: 2px solid transparent;
+
+}
+.border:hover{
+    border: 2px solid black;
+}
+.image{
+    padding: 5px;
+}
+.image img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.resume-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  
+    
+}
+.name h1{
+    color: #fff;
+}
+.icon{
+    font-size: 43px;
+    padding: 5px 220px;
+    width: 100%;
+    
+
+}
+.icons-2{
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    color: #fff;
+}
+
+.name{
+   font-family: cursive;
+}
+.bio{
+color: #fff; 
+font-family: cursive;
+font-weight: 100;
+font-weight: lighter;
+}
+   
+    .contents {
+    flex: 1; /* Allow the content to grow and take available space */
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  flex-direction: column;
+  gap: 4rem;
+  width: 50%;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally within the container */
+  height: 100vh; /* 100% of the viewport height */
+  color: #fff;
+  font-family: cursive;
+  border-radius: 68px;
+background: #080707;
+box-shadow: inset 20px 20px 54px #040303,
+            inset -20px -20px 54px #0c0b0b;
+  
+      }
+      
+
+
+.linkldn{
+    padding: 10px 220px;
+    border-radius: 40px;
+    border-radius: 57px;
+background: #363535;
+box-shadow: inset 20px 20px 60px #242323,
+            inset -20px -20px 60px #484747;
+}
+.linkldn a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.resume{
+    padding: 10px 220px;
+    border-radius: 40px;
+    border-radius: 57px;
+background: #363535;
+box-shadow: inset 20px 20px 60px #242323,
+            inset -20px -20px 60px #484747;
+}
+.github{
+    padding: 10px 220px;
+    border-radius: 40px;
+    border-radius: 57px;
+background: #363535;
+box-shadow: inset 20px 20px 60px #242323,
+            inset -20px -20px 60px #484747;
+}
+.github a{
+    color: #fff;
+    text-decoration: none;
+}
+.instagram{
+    padding: 10px 220px;
+    border-radius: 40px;
+    border-radius: 57px;
+background: #363535;
+box-shadow: inset 20px 20px 60px #242323,
+            inset -20px -20px 60px #484747;
+}
+.instagram a{
+    color: white;
+    text-decoration: none;
+}
